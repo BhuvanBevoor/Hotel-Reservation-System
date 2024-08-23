@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-bg {
+    background-image: url("https://www.teahub.io/photos/full/1-14085_beach-hotel-background-hd.jpg");
+    background-size: cover;
+    padding: 10px;
+}
+
+.main-head {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 220px;
+    color: #050602;
+}
+
+.main-img {
+    height: 150px;
+    width: 250px;
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+.main-button1 {
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 250px;
+    font-family: "Bree Serif";
+}
+
+.main-button2 {
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: "Bree Serif";
+}
+
+.home-carousel {
+    height: 95vh;
+    width: 95vw;
+}
+
+.login-bg {
+    background-image: url("https://wallpapershome.com/images/pages/pic_h/378.jpg");
+    height: 100vh;
+    background-size: cover;
+    padding: 20px;
+}
+
+.login-heading {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+    color: #b2d128;
+}
+
+.login-sub-heading {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 530px;
+    margin-top: 30px;
+    color: #b32560;
+}
+
+.login-container {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    background: none;
+    background: transparent;
+    border-color: #cfced6;
+    height: 30px;
+    width: 200px;
+    margin-left: 530px;
+}
+
+.login-button {
+    height: 30px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 550px;
+    font-family: "Bree Serif";
+}
+
+.amenities {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 750px;
+}
+
+.dbms {
+    width: 450px;
+}
+
+.register-bg {
+    background-image: url("https://img.freepik.com/premium-photo/top-view-pen-notebook-written-with-text-join-our-team_750630-1937.jpg?w=900");
+    height: 100vh;
+    background-size: cover;
+    padding: 20px;
+}
+
+.register-heading {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+    color: black;
+}
+
+.register-sub-heading {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 530px;
+    margin-top: 30px;
+    color: black;
+}
+
+.register-container {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    background: none;
+    background: transparent;
+    border-color: silver;
+    height: 30px;
+    width: 200px;
+    margin-left: 530px;
+}
+
+.register-button {
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 550px;
+    font-family: "Bree Serif";
+}
+
+.User-bg {
+    background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-52379.jpg?w=1060&t=st=1673887820~exp=1673888420~hmac=5d4377270dd776ca73c533b49d8e6bd06104faf2c4afcaa1bce5e17a834993d3");
+    background-size: cover;
+    padding: 20px;
+}
+
+.User-heading {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+
+.User-arrow {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 18px;
+    color: rgb(220, 238, 238);
+    height: 30px;
+    width: 90px;
+    font-family: "Bree Serif";
+    text-align: center;
+    background-color: #050602;
+    border-radius: 12px;
+    border-width: 0px;
+}
+
+.User-dropdown {
+    background-color: #e9ebee;
+    color: black;
+    margin: 50px;
+    padding: 12px;
+    font-family: "Bree Serif";
+    border-radius: 20px;
+}
+
+#sectionRegister {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.Room-main-bg {
+    background-color: #1d6221;
+    background-size: cover;
+    padding: 10px;
+}
+
+.Room-bg {
+    background-color: #c9d6b46e;
+    height: 230px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+    border-radius: 12px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(19, 4, 4, 0.373);
+    box-shadow: #1a551d60;
+}
+
+.Room-img {
+    height: 200px;
+    width: 320px;
+    margin: 12px;
+}
+
+.Room-sub-bg {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.Room-head {
+    font-family: "Bree Serif";
+    font-size: 30px;
+    color: #020a10;
+    font-weight: bold;
+}
+
+.Room-brief {
+    font-family: "Bree Serif";
+    font-size: 24px;
+    width: 180px;
+    font-weight: bold;
+    color: #06070d;
+
+}
+
+.Room-container {
+    margin-top: 50px;
+}
+
+.Room-author {
+    font-family: "Bree Serif";
+    font-size: 22px;
+    color: #183b56;
+    width: 200px;
+}
+
+.Room-button {
+    height: 40px;
+    width: 100px;
+    font-family: "Bree Serif";
+    text-align: center;
+    padding: 15px;
+    margin-left: 350px;
+    font-size: 30px;
+}
+
+.Room-arrow {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 50px;
+    color: rgb(14, 1, 1);
+}
+
+.overlay_flight_traveldil {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay_flight_traveldil:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup_flight_travlDil {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 2s ease-in-out;
+}
+
+.popup_flight_travlDil .close_flight_travelDl {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.minimize
+{
+    height : 0px;
+    width : 0px;
+    opacity: 0;
+}
+
+.popup_flight_travlDil .content_flightht_travel_dil {
+    max-height: 30%;
+    overflow: auto;
+}
+
+.Final-bg {
+    background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-52379.jpg?w=1060&t=st=1673887820~exp=1673888420~hmac=5d4377270dd776ca73c533b49d8e6bd06104faf2c4afcaa1bce5e17a834993d3");
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+}
+
+.Final-heading {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+}
+
+.Final-heading2 {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+}
+
+.Final-breif {
+    font-family: "Bree Serif";
+    font-size: 18px;
+    font-weight: bold;
+    color: #06070d;
+    text-align: center;
+}
+
+
+.Final-breif2 {
+    font-family: "Bree Serif";
+    font-size: 28px;
+    font-weight: bold;
+    color: #06070d;
+    text-align: center;
+}
+
+.Final-container {
+    background-color: #2d238a8d;
+    height: 700px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    border-radius: 12px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(19, 4, 4, 0.373);
+    box-shadow: #1a551d60;
+    text-align: start;
+    padding: 12px;
+    color: rgba(0, 0, 0, 0.753);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: start;
+    font-family: "Bree Serif";
+}
+
+.Final-button {
+    height: 35px;
+    width: 110px;
+    margin-top: 20px;
+    margin-left: 880px;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.Final-breif {
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+}
